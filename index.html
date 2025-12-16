@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Digital Marketing</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Login Page -->
+  <div class="login-container" id="loginPage">
+    <div class="login-box">
+      <h2>Login</h2>
+      <input type="text" id="username" placeholder="Username" />
+      <input type="password" id="password" placeholder="Password" />
+      <button onclick="login()">Masuk</button>
+    </div>
+  </div>
+
+  <!-- Dashboard -->
+  <div class="dashboard" id="dashboard">
+    <header>
+      <h1>Digital Marketing</h1>
+      <p>Media Pembelajaran Digital Marketing</p>
+    </header>
+
+    <nav>
+      <a href="#" onclick="showSection('home')">Home</a>
+      <a href="#" onclick="showSection('seo')">SEO</a>
+      <a href="#" onclick="showSection('sosmed')">Social Media</a>
+      <a href="#" onclick="showSection('content')">Content</a>
+      <a href="#" onclick="showSection('ads')">Paid Ads</a>
+      <a href="#" onclick="showSection('quiz')">Quiz</a>
+    </nav>
+
+    <main>
+      <section id="home" class="section">
+        <div class="card">
+          <h2>Apa itu Digital Marketing?</h2>
+          <p>Digital marketing adalah strategi pemasaran menggunakan media digital seperti website, media sosial, dan mesin pencari.</p>
+        </div>
+      </section>
+
+      <section id="seo" class="section">
+        <div class="card">
+          <h2>SEO</h2>
+          <p>SEO bertujuan meningkatkan peringkat website di Google.</p>
+        </div>
+      </section>
+
+      <section id="sosmed" class="section">
+        <div class="card">
+          <h2>Social Media Marketing</h2>
+          <p>Pemasaran melalui Instagram, Facebook, TikTok, dll.</p>
+        </div>
+      </section>
+
+      <section id="content" class="section">
+        <div class="card">
+          <h2>Content Marketing</h2>
+          <p>Membuat konten bernilai untuk audiens.</p>
+        </div>
+      </section>
+
+      <section id="ads" class="section">
+        <div class="card">
+          <h2>Paid Advertising</h2>
+          <p>Iklan digital berbayar seperti Google Ads.</p>
+        </div>
+      </section>
+
+      <section id="quiz" class="section">
+        <div class="card">
+          <h2>Quiz</h2>
+          <p>1. Tujuan SEO adalah menaikkan ranking website.</p>
+        </div>
+      </section>
+    </main>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
